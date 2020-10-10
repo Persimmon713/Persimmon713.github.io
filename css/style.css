@@ -1,0 +1,101 @@
+body{
+  background-color: #E6E6FA;
+}
+header{
+/* background-color:rgba(228, 238, 241, 1);*/
+  /* background-color: #eaf0f2; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:  10px;
+  padding: 10px;
+  height: 70px;
+  font-weight:300;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: CadetBlue;
+
+}
+
+
+.headtext{
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.bsign{
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.aboutme{
+
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+
+.aboutme p{
+  font-family: sans-serif;
+/*   text-align: center; */
+  margin-left: 50px;
+  font-size: 40px;
+  color: DodgerBlue;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.photo{
+width: 250px;
+height: 440px;
+}
+
+#me{
+  
+  margin-left: 50px;
+  font-size: 40px;
+  color: #4682B4;
+  
+  font-family: 'Open Sans';
+   font-weight: bold;
+  font-style: bold;
+}
+
+#about{
+margin-top: 40px; 
+}
+
+.otch{
+  margin-top: 20px;
+/*   text-align: center; */
+  font-family: sans-serif;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.otch button{
+  border-radius: 10px;
+  border: none;
+  font-family: sans-serif;
+  margin-left: 50px;
+  background-color: #6495ED;
+
+  color: #FFF;
+  padding: 15px;
+  font-size: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: -5px -5px 30px rgba(255,255,255,0.6), 4px 5px 30px rgba(156,193,240,0.9);
+}
+
+.otch button: hover{
+ background-color: DodgerBlue; 
+}
+
+   @font-face {
+       font-family: OpenSans; /* Имя шрифта */
+       src: url(../css/opensans-regular.ttf); /* Путь к файлу со шрифтом */
+      }
+      P {
+       font-family: OpenSans;
+      }
